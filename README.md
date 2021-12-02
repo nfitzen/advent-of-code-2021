@@ -1,6 +1,6 @@
 # nfitzen's Dumb Advent of Code 2021 Scripts
 
-Title says it all. My AoC 2021 scripts.
+Title says it all. My [AoC 2021](https://adventofcode.com/2021) scripts.
 
 ## Copyright
 
