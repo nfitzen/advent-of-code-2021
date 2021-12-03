@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (C) 2021 nfitzen <https://github.com/nfitzen> -->
+
 # nfitzen's Dumb Advent of Code 2021 Scripts
 
 Title says it all. My [AoC 2021](https://adventofcode.com/2021) scripts.
