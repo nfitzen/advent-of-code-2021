@@ -1,8 +1,6 @@
 # SPDX-License-Identifier: MIT
 # Copyright (C) 2021 nfitzen <https://github.com/nfitzen>
 
-# for historical preservation
-
 from cmath import phase, exp
 from math import pi
 
