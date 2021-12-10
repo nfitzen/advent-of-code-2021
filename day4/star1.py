@@ -24,7 +24,7 @@ def main():
 
     # pick a winner
 
-    best_game = (float('inf'), 0, []) # this is kinda stupid
+    best_game = (float("inf"), 0, [])  # this is kinda stupid
     for board in boards:
         current_game = play_bingo(board, nums_called)
         if current_game[0] < best_game[0]:
@@ -38,19 +38,17 @@ def main():
     print(total * best_game[1])
 
 
-
-
 def play_bingo(board: Board, numbers: Iterable[int]) -> tuple[int, int, Board]:
     """Returns the number required to win Bingo."""
 
-    current_board = board.copy() # type: ignore
+    current_board = board.copy()  # type: ignore
 
     for index, num in enumerate(numbers):
         # Mark number on board
         for i, row in enumerate(board):
             for j, entry in enumerate(row):
                 if entry == num:
-                    current_board[i][j] = None # type: ignore
+                    current_board[i][j] = None  # type: ignore
                     break
 
         # Check if a row or column is 5 in a row
