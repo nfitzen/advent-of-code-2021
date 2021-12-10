@@ -13,6 +13,9 @@ def main():
         data = f.readlines()
 
     nums_called = [int(i) for i in data[0].strip().split(",")]
+
+    # parse boards
+
     board_data = data[2:]
 
     boards = [[]]
