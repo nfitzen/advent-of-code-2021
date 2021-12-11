@@ -2,9 +2,6 @@
 # SPDX-License-Identifier: MIT
 # Copyright (C) 2021 nfitzen <https://github.com/nfitzen>
 
-
-from itertools import repeat
-
 Fishes = list[int]
 
 
