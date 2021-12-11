@@ -6,8 +6,8 @@ from statistics import median
 
 
 def main():
-    with open('input.txt') as f:
-        data = [int(i) for i in f.readline().split(',')]
+    with open("input.txt") as f:
+        data = [int(i) for i in f.readline().split(",")]
 
     med = round(median(data))
 
